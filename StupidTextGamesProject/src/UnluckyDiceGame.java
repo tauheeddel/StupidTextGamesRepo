@@ -17,6 +17,7 @@ public class UnluckyDiceGame implements StupidTextGame {
 			System.out.println("Too big, you lose!");
 		}		
 		System.out.print("Try again later");
+		System.out.print("Try again later");
 	}	
 
 
