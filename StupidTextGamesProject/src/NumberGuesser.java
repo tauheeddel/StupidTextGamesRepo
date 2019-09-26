@@ -26,6 +26,7 @@ public class NumberGuesser implements StupidTextGame {
 			if (currentGuess == num) {
 				win = true;
 			}
+			guesses++;
 		}
 		
 		if (win) {
