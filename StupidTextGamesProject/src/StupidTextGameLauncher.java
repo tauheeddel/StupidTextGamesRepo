@@ -11,7 +11,8 @@ public class StupidTextGameLauncher {
 		games.add(new ChickenTossGame());
 		games.add(new LuckyDiceGame());
 		games.add(new Trixiod());
-		
+		games.add(new RandomNumberGame());
+
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
 			System.out.println((i+1) + ": " + games.get(i).getName());
