@@ -1,3 +1,4 @@
+
 /**
  *  Created by: Minh Nguyen
  */
@@ -62,7 +63,7 @@ public class TakeSticksGame implements StupidTextGame {
 
 				if (numSticks <= 0) {
 					System.out.println("You win!");
-				}else {
+				} else {
 					if (goFirst.equals("y") || goFirst.equals("Y")) {
 						System.out.println("There are " + numSticks + " sticks");
 						System.out.println("How many sticks to take (1 or 2)");
@@ -78,7 +79,7 @@ public class TakeSticksGame implements StupidTextGame {
 						if (numSticks <= 0) {
 
 							System.out.println("You lose!");
-						} 
+						}
 					}
 				}
 			}

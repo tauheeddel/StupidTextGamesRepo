@@ -10,15 +10,15 @@ public class StupidTextGameLauncher {
 		games.add(new ChickenTossGame());
 		games.add(new NumberGuesser());
 		games.add(new TakeSticksGame());
-		
+
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
-			System.out.println((i+1) + ": " + games.get(i).getName());
+			System.out.println((i + 1) + ": " + games.get(i).getName());
 		}
-		
+
 		Scanner console = new Scanner(System.in);
 		int choice = console.nextInt();
-		StupidTextGame chosenGame = games.get(choice-1);
+		StupidTextGame chosenGame = games.get(choice - 1);
 		chosenGame.play(console);
 	}
 
