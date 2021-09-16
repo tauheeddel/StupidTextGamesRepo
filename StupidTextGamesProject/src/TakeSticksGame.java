@@ -1,5 +1,5 @@
 /**
- * Created by Minh Nguyen
+ *  Created by: Minh Nguyen
  */
 
 import java.util.Scanner;
