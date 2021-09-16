@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 /**
  * 
- * @author Minh Nguyen
- *
+ * @author Created by Minh Nguyen
  */
 
 public class SameOrDie implements StupidTextGame {
