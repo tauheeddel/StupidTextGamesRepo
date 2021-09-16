@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * 
- * @author Created by Minh Nguyen
+ * @author Created by: Minh Nguyen
  */
 
 public class GuessTheNumberOrDie implements StupidTextGame {
