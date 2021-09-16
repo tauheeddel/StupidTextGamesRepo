@@ -1,6 +1,12 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Minh Nguyen
+ *
+ */
+
 public class SameOrDie implements StupidTextGame {
 	public String getName() {
 		return "SameOrDie";
