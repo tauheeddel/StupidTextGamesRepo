@@ -49,7 +49,7 @@ public class HigherOrLower implements StupidTextGame
 				else
 				{
 					s = "n";
-					System.out.println("GAME OVER");
+					System.out.println("GAME OVER ");
 					System.out.println(" You finished with Points: "+ points);
 				}
 			}
