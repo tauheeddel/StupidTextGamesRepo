@@ -1,4 +1,7 @@
-//Name: Minh Nguyen
+/**
+ * Created by Minh Nguyen
+ */
+
 import java.util.Scanner;
 
 public class TakeSticksGame implements StupidTextGame {
