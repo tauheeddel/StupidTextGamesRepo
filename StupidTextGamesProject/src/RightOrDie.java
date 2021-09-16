@@ -7,6 +7,7 @@ import java.util.Scanner;
  */
 
 public class RightOrDie implements StupidTextGame {
+	
 	public String getName() {
 		return "RightOrDie";
 	}
