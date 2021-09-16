@@ -6,9 +6,9 @@ import java.util.Scanner;
  * @author Created by Minh Nguyen
  */
 
-public class SameOrDie implements StupidTextGame {
+public class GuessTheNumberOrDie implements StupidTextGame {
 	public String getName() {
-		return "SameOrDie";
+		return "GuessTheNumberOrDie";
 	}
 	
 	public void play(Scanner console) {
