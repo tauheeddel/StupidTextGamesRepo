@@ -1,0 +1,32 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class SameOrDie implements StupidTextGame {
+	public String getName() {
+		return "SameOrDie";
+	}
+	
+	public void play(Scanner console) {
+		Random rand = new Random();
+		int num = rand.nextInt(10);
+		boolean win = false;
+		int guesses = 0;
+		
+		while (guesses < 3 &&  !win) {
+			System.out.println("Choose a number between 0 - 10");
+			int guess = console.nextInt();
+			if (guess == num) {
+				win = true;
+			}
+			guesses++;
+		}
+		
+		if (win) {
+			System.out.println("You win!");
+		} else {
+			System.out.println("You die!");
+		}
+		
+	}
+
+}
