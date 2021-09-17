@@ -9,7 +9,7 @@ public class StupidTextGameLauncher {
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
 		games.add(new NumberGuesser());
-		games.add(new HeavenOrHell());
+		
 		
 
 		System.out.println("Choose a stupid text game:");
