@@ -11,6 +11,8 @@ public class StupidTextGameLauncher {
 		games.add(new ChickenTossGame());
 		games.add(new NumberGuesser());
 		games.add(new treeGame());
+		games.add(new DungeonEscape());
+
 		
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
