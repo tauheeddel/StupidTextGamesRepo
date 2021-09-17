@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 /**
  * 
- * @author Created by: Minh Nguyen
+ * @author Name: Minh Nguyen
  *
  */
 
