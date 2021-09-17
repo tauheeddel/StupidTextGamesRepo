@@ -1,5 +1,10 @@
 import java.util.Scanner;
 import java.util.Random;
+/**
+ * 
+ * @author Created by: Minh Nguyen
+ *
+ */
 
 public class HeavenOrHell implements StupidTextGame {
 	
