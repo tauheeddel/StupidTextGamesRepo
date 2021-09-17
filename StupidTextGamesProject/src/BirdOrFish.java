@@ -6,23 +6,23 @@ import java.util.Random;
  *
  */
 
-public class HeavenOrHell implements StupidTextGame {
+public class BirdOrFish implements StupidTextGame {
 	
 	public String getName() {
-		return "HeavenOrHell";
+		return "BirdOrFish";
 	}
 	
 	public void play(Scanner console) {
-		String[] pick = {"Heaven", "Hell"};
+		String[] pick = {"Bird", "Fish"};
 		Random rand = new Random();
 		
 		int index = rand.nextInt(pick.length);
 		String choice = pick[index];
 		
-		if (choice.equals("Hell")) {
-			System.out.println("Its Hell!!! You die");
+		if (choice.equals("Bird")) {
+			System.out.println("You can flyyyy");
 		}else {
-			System.out.println("ITS Heaven!!! You live");
+			System.out.println("You can swimmmm");
 		}
 	}
 
