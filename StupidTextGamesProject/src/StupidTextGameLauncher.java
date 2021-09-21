@@ -12,6 +12,13 @@ public class StupidTextGameLauncher {
 		games.add(new NumberGuesser());
 		games.add(new LuckyNumber());
 		games.add(new DungeonEscape());
+		games.add(new WrongNumberGame());
+		games.add(new WhatTheGame());
+		games.add(new TiedShoes());
+    games.add(new DungeonEscape());
+		games.add(new GetGoodDayQuotesGame());
+		games.add(new MotivationalQuotes());
+
 
 		
 		System.out.println("Choose a stupid text game:");
@@ -26,3 +33,4 @@ public class StupidTextGameLauncher {
 	}
 
 }
+
