@@ -31,6 +31,7 @@ public class StupidTextGameLauncher {
 		games.add(new GetGoodDayQuotesGame());
 		games.add(new MotivationalQuotes());
 		//hi
+		//CSC-305
 		
 
 		System.out.println("Choose a stupid text game:");
