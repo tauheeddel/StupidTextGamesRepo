@@ -13,6 +13,7 @@ public class StupidTextGameLauncher {
 		games.add(new HigherOrLower());
 		games.add(new treeGame());
 		games.add(new DungeonEscape());
+		games.add(new SimpleBlackJack());
 		games.add(new ChickenCrossRoad());
 		games.add(new LuckyNumber());
 		games.add(new DungeonEscape());
@@ -22,6 +23,7 @@ public class StupidTextGameLauncher {
     games.add(new DungeonEscape());
 		games.add(new GetGoodDayQuotesGame());
 		games.add(new MotivationalQuotes());
+
 
 
 		
