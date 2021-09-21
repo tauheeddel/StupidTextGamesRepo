@@ -10,10 +10,24 @@ public class StupidTextGameLauncher {
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
 		games.add(new NumberGuesser());
+		games.add(new HigherOrLower());
+		games.add(new treeGame());
 		games.add(new DungeonEscape());
 		games.add(new StupidZombieGame());
-		// Hey
-		
+		games.add(new SimpleBlackJack());
+		games.add(new ChickenCrossRoad());
+		games.add(new LuckyNumber());
+		games.add(new DungeonEscape());
+		games.add(new WrongNumberGame());
+		games.add(new WhatTheGame());
+		games.add(new TiedShoes());
+    games.add(new DungeonEscape());
+		games.add(new GetGoodDayQuotesGame());
+		games.add(new MotivationalQuotes());
+
+
+
+	
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
 			System.out.println((i+1) + ": " + games.get(i).getName());
@@ -26,3 +40,5 @@ public class StupidTextGameLauncher {
 	}
 
 }
+
+
