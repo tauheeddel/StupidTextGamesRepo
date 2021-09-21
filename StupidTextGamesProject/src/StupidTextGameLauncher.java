@@ -7,6 +7,7 @@ public class StupidTextGameLauncher {
 
 	public static void main(String[] args) {
 		//Added a comment by Tauheed
+		//Added another comment by Tauheed
 		List<StupidTextGame> games = new ArrayList<>();
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
