@@ -30,6 +30,7 @@ public class StupidTextGameLauncher {
 		games.add(new DungeonEscape());
 		games.add(new GetGoodDayQuotesGame());
 		games.add(new MotivationalQuotes());
+		//hi
 		
 
 		System.out.println("Choose a stupid text game:");
