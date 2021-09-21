@@ -17,7 +17,7 @@ public class StupidTextGameLauncher {
 		games.add(new DungeonEscape());
 		games.add(new alvaroGame());
 		games.add(new BaseballGame());
-  	games.add(new StupidZombieGame());
+		games.add(new StupidZombieGame());
 		games.add(new SimpleBlackJack());
 		games.add(new ChickenCrossRoad());
 		games.add(new LuckyNumber());
@@ -25,7 +25,7 @@ public class StupidTextGameLauncher {
 		games.add(new WrongNumberGame());
 		games.add(new WhatTheGame());
 		games.add(new TiedShoes());
-    games.add(new DungeonEscape());
+		games.add(new DungeonEscape());
 		games.add(new GetGoodDayQuotesGame());
 		games.add(new MotivationalQuotes());
 
