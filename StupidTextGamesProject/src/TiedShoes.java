@@ -23,5 +23,7 @@ public class TiedShoes  implements StupidTextGame {
 		
 	}
 	
+	
+	
 
 }
