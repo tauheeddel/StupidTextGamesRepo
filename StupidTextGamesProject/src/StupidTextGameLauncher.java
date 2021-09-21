@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class StupidTextGameLauncher {
 
 	public static void main(String[] args) {
+		//Added a comment by Tauheed
 		List<StupidTextGame> games = new ArrayList<>();
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
@@ -28,6 +29,7 @@ public class StupidTextGameLauncher {
 		games.add(new DungeonEscape());
 		games.add(new GetGoodDayQuotesGame());
 		games.add(new MotivationalQuotes());
+		
 
 		System.out.println("Choose a stupid text game:");
 		for (int i = 0; i < games.size(); i++) {
