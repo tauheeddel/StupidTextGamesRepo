@@ -11,8 +11,11 @@ public class StupidTextGameLauncher {
 		games.add(new ChickenTossGame());
 		games.add(new NumberGuesser());
 		games.add(new DungeonEscape());
+		games.add(new MayosGame());
 		
-		System.out.println("Choose a stupid text game:");
+		System.out.println("Hello there! Player!");
+		System.out.println("Choose one of these amazingly stupid games shown below:");
+		System.out.println();
 		for (int i = 0; i < games.size(); i++) {
 			System.out.println((i+1) + ": " + games.get(i).getName());
 		}
