@@ -17,6 +17,7 @@ public class StupidTextGameLauncher {
 		games.add(new HigherOrLower());
 		games.add(new treeGame());
 		games.add(new DungeonEscape());
+		games.add(new WelcomeToHassanGame());
 		games.add(new alvaroGame());
 		games.add(new BaseballGame());
 		games.add(new StupidZombieGame());
