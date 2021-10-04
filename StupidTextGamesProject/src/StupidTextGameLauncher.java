@@ -17,6 +17,7 @@ public class StupidTextGameLauncher {
 		games.add(new HigherOrLower());
 		games.add(new treeGame());
 		games.add(new DungeonEscape());
+		games.add(new MayosGame());
 		games.add(new WelcomeToHassanGame());
 		games.add(new alvaroGame());
 		games.add(new BaseballGame());
@@ -34,7 +35,8 @@ public class StupidTextGameLauncher {
 		
 
 		System.out.println("Choose a stupid text game:");
-		for (int i = 0; i < games.size(); i++) {
+
+    for (int i = 0; i < games.size(); i++) {
 			System.out.println((i+1) + ": " + games.get(i).getName());
 		}
 		
