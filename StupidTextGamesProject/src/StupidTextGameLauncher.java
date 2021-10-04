@@ -7,11 +7,11 @@ public class StupidTextGameLauncher {
 
 	public static void main(String[] args) {
 		//Added a comment by Tauheed
-		//Added another comment by Tauheed
 		List<StupidTextGame> games = new ArrayList<>();
 		games.add(new UnluckyDiceGame());
 		games.add(new ChickenTossGame());
 		games.add(new NumberGuesser());
+		games.add(new GuessPrimeGame());
 		games.add(new EverbodyWins());
 		games.add(new AugiePurityTestNiceVersion());
 		games.add(new HigherOrLower());
@@ -30,8 +30,6 @@ public class StupidTextGameLauncher {
 		games.add(new DungeonEscape());
 		games.add(new GetGoodDayQuotesGame());
 		games.add(new MotivationalQuotes());
-		//hi
-		//CSC-305
 		
 
 		System.out.println("Choose a stupid text game:");
